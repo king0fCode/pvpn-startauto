@@ -36,4 +36,5 @@ sudo su
 !# Simply edit  start-vpn.sh with nano or prefered editor/ if you want to customize
 
 nano /etc/init.d/start-vpn.sh 
+
 protonvpn c --sc	
