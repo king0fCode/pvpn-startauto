@@ -16,7 +16,11 @@ $ update-rc.d start-vpn.sh defaults
 
 $ sudo update-rc.d start-vpn enable
 
+!# if the user is root
 $ echo ". /etc/init.d/start-vpn.sh" >> ~/.bashrc
+
+!# if you are not root and a user 
+$ echo ". /etc/init.d/start-vpn.sh" >> ~/home/username/.bashrc
 
 $ reboot
 
