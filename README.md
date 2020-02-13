@@ -1,9 +1,13 @@
 #install-script
 
 wget https://raw.githubusercontent.com/king0fCode/pvpn-startauto/master/start-vpn.sh
+
 cp start-vpn.sh /etc/init.d/
+
 chmod +x /etc/init.d/start-vpn.sh
+
 echo ". /etc/init.d/start-vpn.sh" >> ~/.bashrc
+
 reboot
 
 
