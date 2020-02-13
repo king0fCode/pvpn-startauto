@@ -1,14 +1,19 @@
 #install-script
+$ sudo su 
 
-$ sudo apt install -y openvpn dialog python3-pip python3-setuptools
+$ apt install -y openvpn dialog python3-pip python3-setuptools
 
-$ sudo pip3 install protonvpn-cli
+$ pip3 install protonvpn-cli
 
 $ wget https://raw.githubusercontent.com/king0fCode/pvpn-startauto/master/start-vpn.sh
 
 $ cp start-vpn.sh /etc/init.d/
 
 $ chmod +x /etc/init.d/start-vpn.sh
+
+$ update-rc.d start-vpn.sh defaults
+
+$ sudo update-rc.d start-vpn enable
 
 $ echo ". /etc/init.d/start-vpn.sh" >> ~/.bashrc
 
