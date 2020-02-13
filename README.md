@@ -1,18 +1,22 @@
 #install-script
 
-wget https://raw.githubusercontent.com/king0fCode/pvpn-startauto/master/start-vpn.sh
+$ sudo apt install -y openvpn dialog python3-pip python3-setuptools
 
-cp start-vpn.sh /etc/init.d/
+$ sudo pip3 install protonvpn-cli
 
-chmod +x /etc/init.d/start-vpn.sh
+$ wget https://raw.githubusercontent.com/king0fCode/pvpn-startauto/master/start-vpn.sh
 
-echo ". /etc/init.d/start-vpn.sh" >> ~/.bashrc
+$ cp start-vpn.sh /etc/init.d/
 
-reboot
+$ chmod +x /etc/init.d/start-vpn.sh
+
+$ echo ". /etc/init.d/start-vpn.sh" >> ~/.bashrc
+
+$ reboot
 
 
 #once restart open Terminal and 
-sudo su
+$ sudo su
 !# it will automatically connect to nearest locations via VPN
 
 !#  protonvpn-cli -f which connect to nearest location
@@ -35,6 +39,6 @@ sudo su
 
 !# Simply edit  start-vpn.sh with nano or prefered editor/ if you want to customize
 
-nano /etc/init.d/start-vpn.sh 
+$ nano /etc/init.d/start-vpn.sh 
 
-protonvpn c --sc	
+$ protonvpn c --sc	
