@@ -1,4 +1,5 @@
-#install-script
+#install-script . Type commands below at a time
+
 $ sudo su 
 
 $ apt install -y openvpn dialog python3-pip python3-setuptools
