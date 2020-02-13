@@ -25,8 +25,7 @@ $ echo ". /etc/init.d/start-vpn.sh" >> ~/home/username/.bashrc
 $ reboot
 
 
-#once restart open Terminal and 
-$ sudo su
+#once restart 
 !# it will automatically connect to nearest locations via VPN
 
 !#  protonvpn-cli -f which connect to nearest location
