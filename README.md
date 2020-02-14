@@ -59,7 +59,7 @@ $ protonvpn c --sc
 nano /.bashrc
 
 
-
+#Disclaimer Below step is Too Risky, Account may lock changing files below
 !# if you have issue with root promt. Try change permissions on /etc/passwd 
 !# also add user to visudo 
 $ visudo 
