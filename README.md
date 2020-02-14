@@ -58,6 +58,16 @@ $ protonvpn c --sc
 
 nano /.bashrc
 
+Another Solution to Run via Cron Tab
+Try with the crontab option as well 
+
+$ nano /etc/crontab
+
+
+Add 
+
+@reboot root /etc/init.d/start-vpn.sh
+
 
 #Disclaimer Below step is Too Risky, Account may lock changing files below
 
