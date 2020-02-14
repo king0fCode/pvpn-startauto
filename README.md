@@ -65,3 +65,15 @@ nano /.bashrc
 $ visudo 
 Username (ALL:ALL) ALL
 
+
+Also, if you are trying to achieve is Ip leak protection. Configure Kill-switch function. 
+
+
+#Guide 
+
+Enabling Kill Switch
+
+To enable Kill Switch, open the configuration menu with protonvpn configure, then select 5 for Kill Switch and confirm the activation with either 1 or 2, depending on your preference.
+
+
+#! Referrence https://protonvpn.com/support/linux-vpn-tool/
