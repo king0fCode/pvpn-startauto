@@ -57,3 +57,11 @@ $ protonvpn c --sc
 !# if you find Dublicated files on .bashrc  remove them
 
 nano /.bashrc
+
+
+
+!# if you have issue with root promt. Try change permissions on /etc/passwd 
+!# also add user to visudo 
+$ visudo 
+Username (ALL:ALL) ALL
+
